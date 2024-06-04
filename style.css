@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.logo h1 {
+  position: absolute;
+  color: #fff;
+  font-family: 'PT Sans Narrow';
+  font-size: 50pt;
+  margin: 10px 25px;
+}
+
+.hero {
+  height: 650px;
+  width: 100%;
+  background-image: radial-gradient(circle at center center, #474747,#080808);
+}
+
+.hero img {
+  position: absolute;
+  width: 900px;
+  margin-left: 200px;
+  margin-top: 129px;
+}
+
+.imgMobileView {
+  display: none;
+}
+
+.sideContent {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 100px;
+}
+
+.sideContent h1 {
+  font-size: 42pt;
+}
+
+.sideContent h1,
+.sideContent p {
+  color: #fff;
+  width: 400px;
+}
+
+.sideContent button {
+  background-color: #176917;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14pt;
+  color: #fff;
+  border: 1px solid;
+  margin-left: 200px;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.sideContent button:hover {
+  background-color: #2f772f;
+}
+
+.sideContent button i {
+  margin-left: 5px;
+}
+
+.countdownContainer {
+  color: #fff;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 450px;
+}
+
+.countdownContainer h1 {
+  font-size: 14pt;
+}
+
+#countdown {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12pt;
+  width: 400px;
+  cursor: default;
+}
+
+#countdown div {
+  margin: 10px;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+#countdown span {
+  font-size: 18pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 14px;
+  border-radius: 80px;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  background-image: linear-gradient(45deg, #bbbbbb0a 0%, #bbbbbb0a 50%,rgba(86, 86, 86,0.04) 50%, rgba(86, 86, 86,0.04) 100%),linear-gradient(135deg, #a6a6a60a 0%, #a6a6a60a 50%,#5c5c5c0a 50%, rgba(92, 92, 92,0.04) 100%),linear-gradient(90deg, #141414,#141414); 
+  background-size: 142px 142px;
+}
+
+.about img {
+  width: 500px;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 120px;
+}
+
+.aboutText {
+  color: #fff;
+  margin-left: 300px;
+  margin-top: 140px;
+  width: 500px;
+  height: 120px;
+  padding-left: 10px;
+}
+
+.aboutText h1 {
+  font-size: 28pt;
+}
+
+.aboutText .linha {
+  background-color: #fff;
+  width: 250px;
+  height: 2px;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 180px;
+}
+
+.aboutText .linhaLeft {
+  background-color: #fff;
+  width: 2px;
+  height: 120px;
+  position: absolute;
+  margin-top: 24px;
+  margin-left: -10px;
+}
+
+.aboutText button {
+  background-color: #176917;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 14pt;
+  color: #fff;
+  border: 1px solid;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: .3s;  
+}
+
+.aboutText button:hover {
+  background-color: #2f772f;
+}
+
+.videoZone {
+  background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+  height: 400px;
+  color: #fff;
+  padding: 40px 0 50px 0;
+  text-align: center;
+}
+
+.videoZone h1 {
+  margin-bottom: 8px;
+}
+
+.videoZone p {
+  margin-bottom: 20px;
+}
+
+.video {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.video img {
+  width: 500px;
+  border-radius: 8px;
+}
+
+.fa-circle-play {
+  position: absolute;
+  color: #000;
+  font-size: 40pt;
+  cursor: pointer;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  background-image: linear-gradient(45deg, #bbbbbb0a 0%, #bbbbbb0a 50%,rgba(86, 86, 86,0.04) 50%, rgba(86, 86, 86,0.04) 100%),linear-gradient(135deg, #a6a6a60a 0%, #a6a6a60a 50%,#5c5c5c0a 50%, rgba(92, 92, 92,0.04) 100%),linear-gradient(90deg, #141414,#141414); 
+  background-size: 142px 142px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.formText {
+  width: 400px;
+  text-align: left;
+}
+
+.signUp form {
+  display: flex;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signUp form input {
+  padding: 12px;
+  margin: 4px;
+  border: 1px solid #424242;
+  border-radius: 10px;
+  background-color: #4b4b4b;
+  color: #fff;
+}
+
+.signUp form input::placeholder {
+  color: #aaaaaa;
+}
+
+.signUp form input:focus {
+  outline: 2px solid #fff;
+}
+
+.check {
+  padding: 10px;
+}
+
+.signUp form button {
+  background-color: #176917;
+  padding: 12px;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.signUp form button:hover {
+  background-color: #2f772f;
+}
+
+footer {
+  background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+footer .logo h1 {
+  font-size: 30pt;
+  cursor: default;
+}
+
+.socialMedias {
+  color: #fff;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 400px;
+  margin-left: 900px;
+  margin-top: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  font-size: 18pt;
+  margin-top: 10px;
+}
+
+.socialIcons i {
+  cursor: pointer;
+}
+
+footer p {
+  position: absolute;
+  margin-top: 70px;
+  margin-bottom: 0;
+  font-size: 8pt;
+  margin-left: 500px;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
+
+@media(max-width: 450px) {
+  .imgDesktopView {
+    display: none;
+  }
+
+  .imgMobileView {
+    display: block;
+  }
+
+  .hero {
+    height: 850px;
+  }
+
+  .hero img {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 520px;
+    width: 500px;
+  }
+
+  .sideContent {
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 160px;
+  }
+
+  .sideContent h1 {
+    font-size: 22pt;
+  }
+  
+  .sideContent h1,
+  .sideContent p {
+    color: #fff;
+    width: 250px;
+  }
+  
+  .sideContent button {
+    background-color: #176917;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14pt;
+    color: #fff;
+    border: 1px solid;
+    margin-left: 200px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .countdownContainer {
+    margin-left: 50px;
+    margin-top: 360px;
+  }
+  
+  .countdownContainer h1 {
+    font-size: 12pt;
+  }
+  
+  #countdown {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12pt;
+    width: 300px;
+    cursor: default;
+  }
+  
+  #countdown div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #countdown span {
+    font-size: 12pt;
+    padding: 14px;
+    border-radius: 80px;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 10px;
+  }
+
+  .sideContent button {
+    background-color: #176917;
+    position: absolute;
+    width: 160px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14pt;
+    color: #fff;
+    border: 1px solid;
+    margin-left: 200px;
+    margin-top: 180px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+  }
+
+  .aboutText {
+    margin-left: 10px;
+    margin-top: 140px;
+    width: 300px;
+    height: 120px;
+    padding-left: 10px;
+  }
+
+  .aboutText .linha {
+    width: 170px;
+  }
+  
+  .aboutText .linhaLeft {
+    width: 2px;
+    height: 140px;
+  }
+
+  .about img {
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 420px;
+  }
+}
