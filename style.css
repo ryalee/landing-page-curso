@@ -331,9 +331,9 @@ footer a {
 
   .hero img {
     position: absolute;
-    margin-left: -60px;
+    margin-left: -40px;
     margin-top: 520px;
-    width: 500px;
+    width: 400px;
   }
 
   .sideContent {
@@ -438,5 +438,52 @@ footer a {
     position: absolute;
     margin-left: 30px;
     margin-top: 420px;
+  }
+  
+  .video img {
+    width: 350px;
+  }
+
+  .signUp {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formText {
+    width: 350px;
+    text-align: center;
+  }
+  
+  .signUp form {
+    display: flex;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-image: radial-gradient(circle at center center, #474747,#080808);
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .socialMedias {
+    width: 180px;
+    margin-top: 6px;
+    margin-left: 200px;
+  }
+
+  .socialIcons {
+    width: 100px;
+    font-size: 14pt;
+    margin-top: 10px;
+  }
+
+  footer p {
+    position: absolute;
+    margin-top: 76px;
+    margin-left: 50px;
   }
 }
